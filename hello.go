@@ -1,8 +1,13 @@
 /* hello world in go program */
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/ronh-EP10636/stringutil"
+)
+
 
 func main() {
-	fmt.Printf("Hello, world.\n")
+	fmt.Printf(stringutil.Reverse("\n!oG ,olleH"))
 }
